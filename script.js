@@ -1,5 +1,5 @@
 var a={image:"./images/Pic.jpeg",name:"Sahithi B.G",designation:"Student"};
-var b={image:"./images/Pic1.jpeg",name:"Santhu",designation:"Software Developer"};
+var b={image:"./images/Pic1.jpeg",name:"Sahithi",designation:"Software Developer"};
 var isa=true;
 var displaydata;
 var changeMypic=function(){
