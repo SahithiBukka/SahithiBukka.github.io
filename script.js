@@ -5,10 +5,12 @@ var displaydata;
 var changeMypic=function(){
     if(isa){
         displaydata=b;
-        a=false;
+        isa=false;
     }
     else{
         displaydata=a;
-        b=false;
+        isa=true;
     }
+    document.getElementById("myimage").src=displaydata.image;
+    
 }
