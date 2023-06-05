@@ -12,5 +12,7 @@ var changeMypic=function(){
         isa=true;
     }
     document.getElementById("myimage").src=displaydata.image;
-    
+    document.getElementById("myname").innerHTML=displaydata.name;
+    document.getElementById("mydesignation").innerHTML=displaydata.designation;
+
 }
