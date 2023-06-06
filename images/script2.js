@@ -7,5 +7,5 @@ var changeMypic=function(){
         document.getElementById("myimage").src=ui.image;
         document.getElementById("myname").innerHTML=ui.name;
         document.getElementById("mydesignation").innerHTML=ui.username;
-    })
+    });
 }
